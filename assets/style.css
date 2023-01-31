@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menuContainer {
+  display: grid;
+  place-items: center;
+  /* viewport height */
+  height: 100vh;
+}
+.menuBox {
+  width: 400px;
+  height: auto;
+  box-shadow: 0 0 5px gray;
+  padding: 10px 0;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+.menuBox img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  box-shadow: 0 0 5px gray;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+h1,
+h2 {
+  text-align: center;
+}
+#oneliner {
+  text-align: center;
+}
+p {
+  width: 95%;
+}
+.btn {
+  text-align: center;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 17px;
+}
+#random {
+  box-shadow: 0 0 5px gray;
+  margin: 0 5px;
+  padding: 0 5px;
+}
